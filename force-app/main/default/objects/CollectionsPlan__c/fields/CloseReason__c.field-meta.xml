@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloseReason__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Reason that this Collections Plan was closed</description>
+    <externalId>false</externalId>
+    <label>Close Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Incorrect Billing</fullName>
+                <default>false</default>
+                <label>Incorrect Billing</label>
+            </value>
+            <value>
+                <fullName>Customer Service Issue</fullName>
+                <default>false</default>
+                <label>Customer Service Issue</label>
+            </value>
+            <value>
+                <fullName>Product Fit</fullName>
+                <default>false</default>
+                <label>Product Fit</label>
+            </value>
+            <value>
+                <fullName>Partner Issue</fullName>
+                <default>false</default>
+                <label>Partner Issue</label>
+            </value>
+            <value>
+                <fullName>Send to Collections Agency</fullName>
+                <default>false</default>
+                <label>Send to Collections Agency</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DaysOpen__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Difference between the Collections Plan Start Date and End Date if the plan has an end date. Otherwise the difference between the Plan Start Date and Today.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(StartDate__c), 0,
+IF(ISBLANK(EndDate__c), TODAY() - StartDate__c, EndDate__c - StartDate__c))</formula>
+    <inlineHelpText>Number of days this Collections Plan has been open</inlineHelpText>
+    <label>Days Open</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

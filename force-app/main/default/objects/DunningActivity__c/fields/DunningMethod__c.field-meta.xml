@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DunningMethod__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Dunning Method associated with this Dunning Activity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Dunning Method for this Dunning Activity</inlineHelpText>
+    <label>Dunning Method</label>
+    <referenceTo>DunningMethod__c</referenceTo>
+    <relationshipLabel>Dunning Activities</relationshipLabel>
+    <relationshipName>Dunning_Activities</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

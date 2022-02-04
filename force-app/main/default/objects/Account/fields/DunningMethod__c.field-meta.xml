@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DunningMethod__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Dunning Method associated to the account. Used when the account&apos;s Collection Status is not current.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Dunning Method that will be run when the account&apos;s Collection Status is not current.</inlineHelpText>
+    <label>Dunning Method</label>
+    <referenceTo>DunningMethod__c</referenceTo>
+    <relationshipLabel>Accounts</relationshipLabel>
+    <relationshipName>Accounts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

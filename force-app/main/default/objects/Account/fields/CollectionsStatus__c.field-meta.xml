@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CollectionsStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Current Collections Status for this Account</inlineHelpText>
+    <label>Collections Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Current</fullName>
+                <default>true</default>
+                <label>Current</label>
+            </value>
+            <value>
+                <fullName>Pending Collections</fullName>
+                <default>false</default>
+                <label>Pending Collections</label>
+            </value>
+            <value>
+                <fullName>In Collections</fullName>
+                <default>false</default>
+                <label>In Collections</label>
+            </value>
+            <value>
+                <fullName>Credit Hold</fullName>
+                <default>false</default>
+                <label>Credit Hold</label>
+            </value>
+            <value>
+                <fullName>Bad Debt</fullName>
+                <default>false</default>
+                <label>Bad Debt</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

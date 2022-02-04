@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DunningMethod__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The associated Dunning Method that created this Collections Plan.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The associated Dunning Method that created this Collections Plan.</inlineHelpText>
+    <label>Dunning Method</label>
+    <referenceTo>DunningMethod__c</referenceTo>
+    <relationshipLabel>Collections Plans</relationshipLabel>
+    <relationshipName>Collections_Plans</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
